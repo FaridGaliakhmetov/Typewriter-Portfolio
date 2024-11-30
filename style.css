@@ -1,0 +1,67 @@
+header, main{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;  
+    width: 80%; 
+    margin: 30px auto 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    border-top:dashed 1px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+}
+.underMain{
+    width: 85%;
+    margin: 70px auto auto auto;
+}
+img{
+    width: 150px;
+    border-radius: 100px;
+    
+}
+.image{
+    text-align: center;
+}
+.skills{
+    margin: 80px 0;
+}
+.percent{
+  display: inline-block; 
+}
+.full{
+    width: 140px;
+    border: solid 1px black;
+    margin: 5px 10px 0px 10px;
+}
+.empty{
+    width: 90%;
+    background-color: black;
+}
+details{
+    border: dashed 2px;
+    margin: 10px;
+    padding: 15px;
+}
+details:hover{
+    border: solid 2px;
+    
+}
